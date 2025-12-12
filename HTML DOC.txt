@@ -1,0 +1,269 @@
+HTML (HYPERTEXT MARKUP LANGUAGE)
+
+WHAT IS HTML ?
+ 
+MARKUP AND STANDARD LANGUAGE
+NOT A PROGRAMMING
+NOT CASE SENSITIVE
+MUST START AND END TAG
+TELL TO BROWSER WHAT CONTENT TO SHOW AND DISPLAY THE CONTENT
+
+
+WHY WE USE ?
+
+CREATE BASIC LAYOUT OF WEB PAGE
+INSERT IMAGE AND TEXT
+LINK TO ANOTHER PAGE
+
+PURPOSE ?                                                          IMPORTANCE ?
+
+BASIC LAYOUT OF WEB PAGE                                           BROWSER UNDERSTAND
+DEFINE STRUCTURE AND CONTENT                                       WEBSITE USE HTML
+TELL TO THE BROWSER HOW TO DISPLAY AND WHAT
+
+
+STRUCTURE OF HTML :
+
+<!DOCTYPE html> (WHAT TYPE OF FILE TELL TO THE BROWSER)
+<html lang="en"> (ROOT ELEMENT FULL DOC HTML AND USED THEIR TAG)
+<head> (PAGE TITLE)
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> (ADAPT VARIOUS SCREEN SIZE)
+    <title>Document</title> (SHOW ON THE TAB (VISIBLE))
+</head>
+<body>
+
+        <!-- CONTENT DISPLAY(VISIBLE)
+
+</body>
+</html>
+
+
+HTML ELEMENTS :
+
+IT HAS START AND END TAG CALLED ELEMENTS
+
+HEADING TAG : IT HAS DEFAULT SIZE BUT WE NEED TO CUSTOMIZE THEN APPLY FONT-SIZE IN STYLE
+
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+PARAGRAPH TAG : TO ADD THE CONTENT OF THE HEADING
+
+<p>THIS IS PARAGRAPH TAG </p>
+
+PREFORMATTED TEXT : FIXED WIDTH FONT COMPARE TO OTHER FONT .
+
+<pre> My Bonnie lies over the ocean.</pre>
+
+
+NOTE : CAN USE NESTED HTML ELEMENT LIKE HTML DOC <H1><P> AND SO ON.. <br> START
+
+WITH NEW LINE (BREAK) AND <hr> SEPARATE THE LINE (HORIZONTAL RULE) BOTH TAG ARE
+
+CALLED EMPTY ELEMENT AND THERE IS NO END TAG .
+
+
+Quotation and Citation Elements : 
+
+⦁	<blockquote> display the long quotation in separate block 
+⦁	
+⦁	<q> defines a short quotation 
+⦁	
+⦁	<abbr> ABBREVATION FULL FORM TO SHOW SHORT NOTES 
+⦁	
+⦁	<address> TEXT USUALLY IN ITALIC FORMAT 
+⦁	
+⦁	<cite> DESCRIBE THE WORK <bdo>
+⦁	
+⦁	BI-DIRECTIONAL (LEFT TO RIGHT)(RIGHT TO LEFT)
+
+
+HTML COMMENTS : NOT DISPLAYED BUT EASY TO UNDERSTAND
+
+HTML IMAGE TAG : <map> Defines an image map <area> CLICKABLE AREA INSIDE IMAGE MAP
+
+<picture> Defines a container for multiple image resources
+
+👉 img = just show image
+
+👉 picture = choose image based on device / size / format
+
+HTML Favicon : icon displayed in the tab (NAME OF THE WEBSITE ICON)
+
+
+HTML Attributes :
+
+IT GIVE SOME INFORMATION ABOUT ELEMENTS LIKE NAME="VALUE" IN THIS PAIR
+
+<a> ANCHOR TAG LINK TO OTHER PAGE BY href ATTRIBUTE URL PAGE GOES TO AND ALSO USED BOOKMARK
+
+<img> IMAGE TAG TI INSERT AND src ATTRIBUTE TELL THE PATH OF IMAGE SOURCE FILE
+
+AND HEIGHT WIDTH AND ALT ATTRIBUTE.(float:left)DISPLAY THE IMG IN FLOAT LEFT OR RIGHT TO THE TEXT
+
+<style> USED TO ADD STYLE IN ELEMENT SUCH AS FONT SIZE AND COLOR AND BG and text-align
+
+lang ATTRIBUTE (TELL TO THE DOCUMENT WHAT TYPE OF LANGUAGE OF THIS FILE)
+
+title (VALUE OF THE TITLE DESCRIBE) 
+
+
+URL IN TWO WAYS :
+
+RELATIVE URL : INTERNAL (LOCAL FROM OUR DEVICE)
+
+ABSOLUTE URL : EXTERNAL (IT ACCESS FROM INTERNET OR BROWSER)
+
+HTML Text Formatting :
+
+DEFINE THE TEXT WITH MEANING 
+
+<b> - Bold text
+
+<strong> - Important text
+
+<i> - Italic text
+
+<em> - Emphasized text
+
+<mark> - Marked text
+
+<small> - Smaller text
+
+<del> - Deleted text
+
+<ins> - Inserted text
+
+<sub> - Subscript text
+
+<sup> - Superscript text
+
+
+HTML Tables : ARRANGE ALL DATA IN ROW AND COLUMNS 
+
+<table> <th> <thead> <tr> <td> <tbody> <tfoot> <caption> <col> <colgroup>
+
+table border , border-collapse , border-radius and also give border in this form 
+
+like dot , dashed , solid , double , inset and outset , groove , ridge and none , hidden
+
+to apply table row and column height and width and hover
+
+to apply text-align and colspan (one row in multiple columns)
+
+padding (inside) and spacing (outside)
+
+<colgroup>
+
+<colspan='3'>
+
+</colgroup>  before placed to other element
+
+
+HTML LIST : GROUP SET OF ITEMS
+
+UNORDERED LIST : IN THE FORM OF BULLET 
+
+Choose List Item Marker (LIKE DISC AND CIRCLE AND SQUARE AND NONE BY DECLARE (LIST-
+
+STYLE-TYPE))
+
+nested html list 
+
+ORDERED LIST : IN THE FORM OF NUMBER
+
+Ordered HTML List - The Type Attribute
+
+type="1"
+
+type="A"
+
+type="a"
+
+type="|"
+
+type="i"
+
+Control List Counting
+
+nested html list :
+
+DESCRIPTION LIST : DEFINE LIST (DL) AND DEFINE THE TERM (DT) AND DESCRIBE THE TERM (DD)
+
+
+##### **block and inline elements :**
+
+* A block-level element always starts on a new line and takes up the full width available
+
+A. Page Structure Elements
+
+* header , main , section , div , footer , article and aside
+
+B. Text Blocks
+
+* h1 , p , hr , br ,pre and blackquote
+
+C. Grouping
+
+* table , ol , ul , li , dd , dt , dl ,figure , figcaption and fieldset 
+
+D. Others  
+
+* address , form and videos , canvas and noscript
+
+* An inline element does not start on a new line and it only takes up as much width as necessary
+
+A. Text Formatting
+
+* bold , strong , italic , em , small , big , q , abbr , acronym , cite , span , sub , sup , code , var
+
+B. Input/Control
+
+* label , input/output , textarea , button and select
+
+C. Embedded items
+
+* map , image , script and object
+
+* The <div> element is a block-level element and is often used as
+
+a container for other HTML elements
+
+* The <span> element is an inline container used to mark up a part of a text, or a part of a document
+
+###### **Html class attribute :**
+
+Note: The class name is case sensitive!
+
+Multiple HTML elements can share the same class and use multiple class 
+
+
+###### **HTML id Attribute :**
+
+use only one id and call by #
+
+###### **HTML Buttons :**
+
+button are clickable button to do some process in backup
+
+* button 
+* disabled
+* submit
+* reset
+
+###### **HTML Iframe :**
+
+embedded : inserted inside the page but coming from outside or separate.
+
+###### **Semantics Elements :**
+
+header , section , article , aside and footer
+
+
+
+
